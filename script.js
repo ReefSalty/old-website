@@ -17,11 +17,11 @@ const blogPosts = [
 // Simulated Portfolio System with Image and GitHub links
 const portfolioItems = [
     {
-        title: "Project A",
-        content: "Description of Project A. This was a challenging project where I implemented XYZ features.",
-        date: "September 2023",
-        link: "https://github.com/reefsalty/projectA-repo",
-        image: "path_to_portfolio_image1.jpg" // Replace with your image path
+        title: "Suvat Solver",
+        content: "Suvat solver made with HTML, CSS and JS: results can even be exported to an img.",
+        date: "October 2023",
+        link: "https://github.com/reefsalty/suvat-solver",
+        image: "img/suvat-solver.png" // Replace with your image path
     },
     {
         title: "Project B",

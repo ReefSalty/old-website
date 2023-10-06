@@ -10,7 +10,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">ReefSalty</a>
+        <a class="navbar-brand" href="index.html">ReefSalty</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -35,54 +35,48 @@
         </div>
     </nav>
 
-<!-- ... Rest of the code ... -->
+    <div class="container mt-5" id="portfolioItems">
+        <!-- Portfolio items will be populated here by script.js -->
+    </div>
 
-<div class="container mt-5" id="portfolioItems">
-    <!-- Portfolio items will be populated here by script.js -->
-</div>
-
-<!-- Portfolio Item Modal -->
-<div class="modal fade" id="portfolioItemModal" tabindex="-1" role="dialog" aria-labelledby="portfolioItemModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="portfolioItemTitle"></h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <img id="portfolioItemImage" src="" alt="Portfolio Image" class="img-fluid mb-3"> <!-- Image Element Added -->
-                <div id="portfolioItemContent"></div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+    <!-- Portfolio Item Modal -->
+    <div class="modal fade" id="portfolioItemModal" tabindex="-1" role="dialog" aria-labelledby="portfolioItemModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="portfolioItemTitle"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img id="portfolioItemImage" src="" alt="Portfolio Image" class="img-fluid mb-3"> <!-- Image Element Added -->
+                    <div id="portfolioItemContent"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<!-- ... Rest of the code ... -->
+    <button class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});"><i class="fas fa-arrow-up"></i></button>
 
+    <footer class="footer mt-auto py-3 bg-dark fixed-bottom">
+        <div class="container text-center">
+            <span class="text-muted">© 2023 ReefSalty. All rights reserved.</span>
+            <div class="socials mt-2">
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/reefsalty" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
 </body>
-<button class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});"><i class="fas fa-arrow-up"></i></button>
-
-<footer>
-
-    <div class="container text-center">
-        <span class="text-muted">© 2023 ReefSalty. All rights reserved.</span>
-        <div class="socials mt-2">
-            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://github.com/reefsalty" target="_blank"><i class="fab fa-github"></i></a>
-        </div>
-    </div>
-
-</footer>
 </html>

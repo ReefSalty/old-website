@@ -24,12 +24,3 @@ Check out my blog posts where I share my thoughts, insights, and experiences. I 
 ## Contact
 
 Feel free to reach out to me. You can use the [contact form](#) on this website to send me a message.
-
-## How to Run Locally
-
-If you want to run this website locally on your machine, follow these steps:
-
-1. Clone this repository to your local machine:
-
-   ```bash
-   git clone https://github.com/reefsalty/reefsalty-website.git
